@@ -1,0 +1,1180 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-product-sans-medium: "Product Sans Medium";
+  --font-product-sans: "Product Sans";
+
+  /* font sizes */
+  --font-size-lg-9: 18.9px;
+  --font-size-mid-2: 17.2px;
+  --font-size-xl-8: 20.8px;
+  --font-size-mid: 17px;
+  --font-size-5xl-9: 24.9px;
+  --font-size-xl: 20px;
+  --font-size-6xl: 25px;
+  --font-size-sm: 14px;
+
+  /* Colors */
+  --white: #fff;
+  --color-mediumvioletred: #c53183;
+  --color-hotpink: #de4a9c;
+  --color-gray-100: rgba(0, 0, 0, 0.5);
+  --color-gray-200: rgba(0, 0, 0, 0.15);
+  --color-black: #000;
+  --color-gainsboro: rgba(217, 217, 217, 0.4);
+  --color-dimgray: #4a5568;
+
+  /* Gaps */
+  --gap-mini: 15px;
+  --gap-4xl: 23px;
+  --gap-xl: 20px;
+  --gap-10xs: 3px;
+  --gap-3xs: 10px;
+  --gap-4xs: 9px;
+  --gap-5xs: 8px;
+  --gap-lgi: 19px;
+  --gap-sm: 14px;
+  --gap-9xs: 4px;
+
+  /* Paddings */
+  --padding-xl: 20px;
+  --padding-3xs: 10px;
+  --padding-7xl: 26px;
+  --padding-11xl: 30px;
+  --padding-10xs: 3px;
+  --padding-14xl: 33px;
+  --padding-lg: 18px;
+  --padding-lgi: 19px;
+  --padding-19xl: 38px;
+  --padding-12xs: 1px;
+  --padding-base: 16px;
+  --padding-9xs: 4px;
+
+  /* Border radiuses */
+  --br-17xl: 36px;
+  --br-3xs-1: 9.1px;
+  --br-34xl: 53px;
+}
+
+.navbar-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--white);
+  backdrop-filter: blur(30px);
+  border-bottom: 1px solid var(--color-gray-200);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  opacity: 0.2;
+}
+.connectop {
+  position: absolute;
+  top: 21px;
+  left: 182px;
+  letter-spacing: 0.02em;
+  line-height: 31px;
+  text-transform: capitalize;
+}
+.navbar {
+  align-self: stretch;
+  height: 75px;
+  position: sticky;
+  display: none;
+  top: 0;
+  z-index: 99;
+  text-align: left;
+  font-size: 23px;
+  color: var(--color-black);
+  font-family: var(--font-product-sans-medium);
+}
+.logo-icon {
+  width: 77px;
+  position: relative;
+  height: 69px;
+  object-fit: cover;
+  display: none;
+  z-index: 1;
+}
+.logo-component {
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--white);
+  backdrop-filter: blur(30px);
+  border: 1px solid rgba(132, 132, 132, 0.3);
+  box-sizing: border-box;
+  opacity: 0.2;
+}
+.logo-icon1 {
+  width: 68.4px;
+  height: 69px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.home-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 15px 0 0;
+}
+.home {
+  position: relative;
+  z-index: 1;
+}
+.prof-qualifications-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-lgi) 0 13px;
+}
+.my-sessions-text-child {
+  align-self: stretch;
+  height: 4px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.bookmentor-frame,
+.my-sessions-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.my-sessions-text {
+  align-self: stretch;
+  height: 42px;
+  align-items: center;
+  gap: 22px;
+}
+.bookmentor-frame {
+  width: 96px;
+  align-items: flex-start;
+  padding: 24px 29px 0 0;
+  box-sizing: border-box;
+}
+.book-a-mentor,
+.your-sessions {
+  position: relative;
+  z-index: 1;
+}
+.your-sessions {
+  cursor: pointer;
+}
+.bangalore-text {
+  width: 842px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) 0;
+  box-sizing: border-box;
+  gap: 50px;
+  max-width: 100%;
+  color: var(--color-dimgray);
+}
+.major-text-icon {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  border-radius: 52px;
+  z-index: 1;
+}
+.education-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 5px 0 0;
+}
+.mingcutedown-line-icon {
+  width: 17px;
+  height: 17px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+  z-index: 1;
+}
+.navbar1,
+.university-name-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+}
+.navbar1 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-12xs);
+  box-sizing: border-box;
+  position: relative;
+  gap: 5px;
+  max-width: 100%;
+  z-index: 1;
+}
+.complete-profile {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.masters-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-14xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.my-profile-label-child {
+  height: 56px;
+  width: 416px;
+  position: relative;
+  border-radius: var(--br-34xl);
+  background-color: var(--color-gainsboro);
+  display: none;
+  max-width: 100%;
+}
+.my-profile {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 1;
+}
+.my-qualifications {
+  position: relative;
+  font-size: var(--font-size-6xl);
+  font-family: var(--font-product-sans-medium);
+  color: var(--white);
+  text-align: left;
+}
+.my-qualifications-label {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs);
+  background-color: var(--color-mediumvioletred);
+  flex: 1;
+  border-radius: 45px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  min-width: 159px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.add-button1:hover,
+.add-button:hover,
+.my-qualifications-label:hover {
+  background-color: var(--color-hotpink);
+}
+.bachelors-frame,
+.my-profile-label {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.my-profile-label {
+  align-self: stretch;
+  border-radius: var(--br-34xl);
+  background-color: var(--color-gainsboro);
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: var(--padding-10xs) var(--padding-9xs) var(--padding-10xs)
+    var(--padding-14xl);
+  gap: 24px;
+  font-size: var(--font-size-6xl);
+}
+.bachelors-frame {
+  width: 436px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: var(--gap-xl);
+}
+.professional-qualifications {
+  height: 30px;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+}
+.phsuitcase-simple-bold {
+  margin: 0;
+  height: 37px;
+  width: 37px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.senior-data-analyst {
+  position: relative;
+}
+.bachelors-in-engineering-label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: var(--gap-sm);
+  font-size: var(--font-size-xl-8);
+  font-family: var(--font-product-sans-medium);
+}
+.ireland,
+.red-hat {
+  position: relative;
+}
+.university-of-galway-logo {
+  height: 2.5px;
+  width: 2.5px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-gray-100);
+}
+.edu-degree-label {
+  position: relative;
+}
+.infosys-logo,
+.ireland-mark {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: var(--gap-5xs);
+}
+.infosys-logo {
+  flex: 1;
+  border-radius: var(--br-3xs-1);
+  border: 0.9px solid var(--color-gray-200);
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-lg) var(--padding-lg) var(--padding-base);
+  gap: var(--gap-10xs);
+  min-width: 252px;
+  max-width: 100%;
+}
+.phsuitcase-simple-bold1 {
+  margin: 0;
+  height: 37px;
+  width: 37px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.data-analyst {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  min-width: 93px;
+}
+.phsuitcase-simple-bold-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: var(--gap-sm);
+}
+.infosys {
+  position: relative;
+  font-size: var(--font-size-mid-2);
+  font-family: var(--font-product-sans);
+}
+.frame-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+}
+.bangalore-india {
+  position: relative;
+}
+.ireland-flag {
+  height: 2.5px;
+  width: 2.5px;
+  border-radius: 50%;
+  background-color: var(--color-gray-100);
+}
+.div,
+.ireland-flag {
+  position: relative;
+}
+.infosys-logo1,
+.scholarship-parttime-job-label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: var(--gap-5xs);
+  font-size: var(--font-size-mid-2);
+  font-family: var(--font-product-sans);
+}
+.scholarship-parttime-job-label {
+  flex: 0.9426;
+  border-radius: var(--br-3xs-1);
+  border: 0.9px solid var(--color-gray-200);
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-lg) var(--padding-19xl) var(--padding-base)
+    var(--padding-lg);
+  gap: var(--gap-9xs);
+  min-width: 252px;
+  max-width: 100%;
+  z-index: 1;
+  font-size: var(--font-size-xl-8);
+  font-family: var(--font-product-sans-medium);
+}
+.data-analyst-label {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 21px;
+  font-size: var(--font-size-mid-2);
+  font-family: var(--font-product-sans);
+}
+.data-analyst-label,
+.professional-qualifications-la,
+.senior-data-analyst-label {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.senior-data-analyst-label {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-4xl);
+}
+.professional-qualifications-la {
+  width: 854px;
+  flex-direction: row;
+  padding: 0 var(--padding-11xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-5xl-9);
+  color: var(--color-black);
+  font-family: var(--font-product-sans-medium);
+}
+.educational-qualifications {
+  height: 30px;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+}
+.mdieducation-outline-icon {
+  height: 44.1px;
+  width: 44.1px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.masters-in-artificial-intellig {
+  position: relative;
+}
+.mdieducationoutline {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.parttime-job-yes-frame {
+  height: 2.5px;
+  width: 2.5px;
+  position: absolute;
+  margin: 0 !important;
+  top: 9.3px;
+  right: 91.7px;
+  border-radius: 50%;
+  background-color: var(--color-gray-100);
+}
+.no,
+.scholarship,
+.university-of-galway {
+  position: relative;
+}
+.group {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: var(--gap-5xs);
+}
+.part-time-job,
+.yes {
+  position: relative;
+}
+.group-parent,
+.group1,
+.line {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.group1 {
+  flex-direction: row;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: var(--gap-5xs);
+}
+.group-parent,
+.line {
+  flex-direction: column;
+}
+.group-parent {
+  gap: var(--gap-3xs);
+}
+.line {
+  gap: 18px;
+}
+.frame {
+  position: relative;
+}
+.mdieducationoutline-parent,
+.scholarship-no-frame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.scholarship-no-frame {
+  flex-direction: row;
+  padding: 0 var(--padding-12xs) 0 0;
+  position: relative;
+  gap: var(--gap-lgi);
+  font-size: var(--font-size-mid-2);
+  font-family: var(--font-product-sans);
+}
+.mdieducationoutline-parent {
+  flex-direction: column;
+  gap: var(--gap-9xs);
+}
+.campus-housing,
+.place-of-stay {
+  position: relative;
+}
+.place-of-stay-parent {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: var(--gap-5xs);
+}
+.frame-container,
+.place-of-stay-parent,
+.rectangle {
+  display: flex;
+  justify-content: flex-start;
+}
+.rectangle {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  font-size: var(--font-size-mid-2);
+  font-family: var(--font-product-sans);
+}
+.frame-container {
+  width: 387px;
+  border-radius: var(--br-3xs-1);
+  border: 0.9px solid var(--color-gray-200);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-lg) 17px 23px var(--padding-lg);
+  gap: var(--gap-3xs);
+  max-width: 100%;
+}
+.mdieducation-outline-icon1 {
+  height: 44.1px;
+  width: 44.1px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.bachelors-in-bachelor-of-engin {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  min-width: 177px;
+  max-width: 100%;
+}
+.parttime-job-badge {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-sm);
+  max-width: 100%;
+}
+.parttime-job-symbol {
+  height: 2.5px;
+  width: 2.5px;
+  position: absolute;
+  margin: 0 !important;
+  top: 10.1px;
+  right: 88.5px;
+  border-radius: 50%;
+  background-color: var(--color-gray-100);
+}
+.no1,
+.savitribai-phule-pune,
+.scholarship1 {
+  position: relative;
+}
+.frame-with-no-parttime-job {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: var(--gap-5xs);
+}
+.no2,
+.part-time-job1 {
+  position: relative;
+}
+.no-parttime-job {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: var(--gap-5xs);
+}
+.campus-housing-label,
+.frame-with-no-scholarship {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.campus-housing-label {
+  gap: var(--gap-lgi);
+}
+.no-symbol1,
+.university-logo {
+  position: relative;
+}
+.no-symbol1 {
+  flex-direction: row;
+  padding: 0 var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-lgi);
+  max-width: 100%;
+  font-size: var(--font-size-mid-2);
+  font-family: var(--font-product-sans);
+}
+.no-symbol,
+.no-symbol1,
+.scholarship-badge {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.no-symbol {
+  width: 385px;
+  flex-direction: column;
+  gap: var(--gap-10xs);
+  max-width: 104%;
+  flex-shrink: 0;
+}
+.scholarship-badge {
+  width: 369px;
+  flex-direction: row;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.campus-housing1,
+.place-of-stay1 {
+  position: relative;
+}
+.education-section,
+.qualifications-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.education-section {
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: var(--gap-5xs);
+}
+.qualifications-frame {
+  align-self: stretch;
+  padding: 0 var(--padding-lg);
+  font-size: var(--font-size-mid-2);
+  font-family: var(--font-product-sans);
+}
+.bachelors-engineering-badge {
+  width: 387px;
+  border-radius: var(--br-3xs-1);
+  border: 0.9px solid var(--color-gray-200);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-lg) 0 var(--padding-lgi);
+  gap: var(--gap-4xs);
+  max-width: 100%;
+}
+.mdieducation-outline-icon2 {
+  height: 44.1px;
+  width: 44.1px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.bachelors-in-bachelor-of-engin1 {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  min-width: 177px;
+  max-width: 100%;
+}
+.bachelors-engineering-badge-inner,
+.mdieducation-outline-parent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-shrink: 0;
+}
+.mdieducation-outline-parent {
+  width: 384px;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--gap-sm);
+  max-width: 104%;
+}
+.bachelors-engineering-badge-inner {
+  width: 369px;
+  align-items: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.infosys-logo2,
+.savitribai-phule-pune1 {
+  position: relative;
+}
+.infosys-logo2 {
+  height: 2.5px;
+  width: 2.5px;
+  border-radius: 50%;
+  background-color: var(--color-gray-100);
+}
+.no-scholarship-icon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.no3,
+.scholarship2 {
+  position: relative;
+}
+.bangalore-city,
+.savitribai-phule {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.bangalore-city {
+  flex-direction: row;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: var(--gap-5xs);
+}
+.savitribai-phule {
+  flex-direction: column;
+  gap: var(--gap-lgi);
+}
+.no4,
+.part-time-job2 {
+  position: relative;
+}
+.education-section-title {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: var(--gap-5xs);
+}
+.campus-housing2,
+.place-of-stay2 {
+  position: relative;
+}
+.campus-housing-label1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: var(--gap-5xs);
+}
+.campus-housing-icon,
+.savitribai-phule-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.campus-housing-icon {
+  align-self: stretch;
+  gap: var(--gap-4xs);
+}
+.savitribai-phule-parent {
+  flex: 1;
+  gap: var(--gap-3xs);
+  min-width: 162px;
+}
+.div1 {
+  position: relative;
+}
+.frame-div {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1px;
+  max-width: 100%;
+}
+.bachelors-engineering-badge-child,
+.bachelors-engineering-badge1 {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.bachelors-engineering-badge-child {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-19xl) 0 var(--padding-lg);
+  font-size: var(--font-size-mid-2);
+  font-family: var(--font-product-sans);
+}
+.bachelors-engineering-badge1 {
+  width: 387px;
+  border-radius: var(--br-3xs-1);
+  border: 0.9px solid var(--color-gray-200);
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--padding-lg) 0 var(--padding-lgi);
+  gap: var(--gap-10xs);
+}
+.line-group {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 924px;
+  background: linear-gradient(270deg, #fff, rgba(255, 255, 255, 0));
+  width: 119px;
+  z-index: 1;
+}
+.rectangle-frame-child {
+  position: absolute;
+  top: -0.5px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 4;
+}
+.line1,
+.rectangle-frame,
+.rectangle-frame-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 800px;
+  height: 8px;
+}
+.line1,
+.rectangle-frame {
+  top: 281px;
+  width: 1045px;
+  height: 1px;
+}
+.line1 {
+  height: 297px;
+  margin: 0 !important;
+  top: -48px;
+  left: 2px;
+  flex-shrink: 0;
+}
+.frame-group {
+  width: 1163px;
+  overflow-x: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  font-size: var(--font-size-xl-8);
+}
+.educational-qualifications-fra,
+.educational-qualifications-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.educational-qualifications-parent {
+  flex-direction: column;
+  padding: 0 39px 0 0;
+  gap: var(--gap-4xl);
+}
+.educational-qualifications-fra {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-14xl);
+  text-align: left;
+  font-size: var(--font-size-5xl-9);
+  color: var(--color-black);
+  font-family: var(--font-product-sans-medium);
+}
+.campus-housing-text,
+.parttime-job-component {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+}
+.campus-housing-text {
+  flex-direction: column;
+  gap: 27px;
+  max-width: 103%;
+  text-align: left;
+  font-size: 35px;
+  color: var(--color-black);
+  font-family: var(--font-product-sans-medium);
+}
+.parttime-job-component {
+  width: 1216px;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.add {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-lg-9);
+  font-family: var(--font-product-sans-medium);
+  color: var(--white);
+  text-align: left;
+}
+.add-button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs) var(--padding-7xl) var(--padding-3xs)
+    var(--padding-11xl);
+  background-color: var(--color-mediumvioletred);
+  flex: 1;
+  border-radius: var(--br-17xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  z-index: 1;
+}
+.add-button-wrapper {
+  width: 116px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs);
+  box-sizing: border-box;
+}
+.group-frame-child {
+  width: 519.5px;
+  position: absolute;
+  margin: 0 !important;
+  top: -594px;
+  left: -291px;
+  height: 619.3px;
+  object-fit: contain;
+}
+.add1 {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-lg-9);
+  font-family: var(--font-product-sans-medium);
+  color: var(--white);
+  text-align: left;
+}
+.add-button1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs) var(--padding-7xl) var(--padding-3xs)
+    var(--padding-11xl);
+  background-color: var(--color-mediumvioletred);
+  flex: 1;
+  border-radius: var(--br-17xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  z-index: 2;
+}
+.frame-parent1,
+.group-frame {
+  width: 110px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.frame-parent1 {
+  width: 520px;
+  margin: 0 !important;
+  position: absolute;
+  top: -154px;
+  right: -3px;
+  flex-direction: column;
+  align-items: center;
+  padding: 393px var(--padding-xl) 0;
+  box-sizing: border-box;
+  gap: 158px;
+  max-width: 100%;
+}
+.complete-profile-my-qualific-child {
+  width: 121px;
+  position: relative;
+  background-color: var(--white);
+  height: 262px;
+  display: none;
+  z-index: 5;
+}
+.complete-profile-my-qualific {
+  width: 100%;
+  position: relative;
+  background-color: var(--white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 120px;
+  box-sizing: border-box;
+  gap: 31px;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  font-family: var(--font-product-sans);
+}
+@media screen and (max-width: 1050px) {
+  .navbar1 {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .complete-profile {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 725px) {
+  .infosys-logo,
+  .scholarship-parttime-job-label {
+    flex: 1;
+  }
+  .data-analyst-label {
+    flex-wrap: wrap;
+  }
+  .complete-profile-my-qualific {
+    gap: var(--gap-mini);
+  }
+}
+@media screen and (max-width: 450px) {
+  .bangalore-text {
+    flex-wrap: wrap;
+  }
+  .complete-profile {
+    font-size: 21px;
+  }
+  .my-profile,
+  .professional-qualifications {
+    font-size: var(--font-size-xl);
+  }
+  .data-analyst,
+  .senior-data-analyst {
+    font-size: var(--font-size-mid);
+  }
+  .phsuitcase-simple-bold-parent {
+    flex-wrap: wrap;
+  }
+  .educational-qualifications {
+    font-size: var(--font-size-xl);
+  }
+  .masters-in-artificial-intellig {
+    font-size: var(--font-size-mid);
+  }
+  .mdieducationoutline,
+  .place-of-stay-parent,
+  .scholarship-no-frame {
+    flex-wrap: wrap;
+  }
+  .bachelors-in-bachelor-of-engin {
+    font-size: var(--font-size-mid);
+  }
+  .education-section,
+  .no-symbol1 {
+    flex-wrap: wrap;
+  }
+  .bachelors-in-bachelor-of-engin1 {
+    font-size: var(--font-size-mid);
+  }
+  .campus-housing-label1 {
+    flex-wrap: wrap;
+  }
+}
